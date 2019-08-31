@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRDemo", "SignalRDemo\SignalRDemo.csproj", "{E98AEB4A-5767-4247-BD29-498BDB753A97}"
 EndProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{015AF2
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreConsoleClient", "DotNetCoreConsoleClient\DotNetCoreConsoleClient.csproj", "{2D3ECEA7-20A8-4F67-B3FC-579D47DD9457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,8 +36,15 @@ Global
 		{092A2275-7C8F-4A6E-A4A9-654872E7C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{092A2275-7C8F-4A6E-A4A9-654872E7C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{092A2275-7C8F-4A6E-A4A9-654872E7C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3ECEA7-20A8-4F67-B3FC-579D47DD9457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3ECEA7-20A8-4F67-B3FC-579D47DD9457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3ECEA7-20A8-4F67-B3FC-579D47DD9457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3ECEA7-20A8-4F67-B3FC-579D47DD9457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FE19E5B-A48C-451A-A374-94C6F66D64BC}
 	EndGlobalSection
 EndGlobal
